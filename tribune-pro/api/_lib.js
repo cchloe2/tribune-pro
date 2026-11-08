@@ -12,7 +12,7 @@ const LEAGUES = {
 };
 
 async function call(path, params = {}) {
-  const key = process.env.FOOTBALL_DATA_KEY;
+  const key = process.env.API_FOOTBALL_KEY;
   if (!key) throw new Error("Variable d'environnement FOOTBALL_DATA_KEY manquante");
   
   const url = new URL(BASE + path);

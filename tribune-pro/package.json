@@ -1,0 +1,7 @@
+{
+  "name": "tribune",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pronostics football en jetons fictifs",
+  "engines": { "node": ">=18" }
+}
